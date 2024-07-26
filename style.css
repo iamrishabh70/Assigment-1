@@ -1,0 +1,177 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lora', serif;
+    }
+
+    .main-container {
+        width: 100%;
+        height: 100vh;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4821526022518382) 100%, rgba(0, 0, 0, 0.09839910085127801) 100%), url(./luxury.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        padding-inline: 12%;
+        color: white;
+    }
+
+    .navbar img {
+        width:140px;
+        font-weight: 700;
+        height: ;
+        /* border: 1px solid black; */
+    }
+
+    .navbar ul {
+        width: 40%;
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+
+    #sign-in {
+        width: 80px;
+        height: 30px;
+        background-color: rgb(209, 51, 233);
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #log-in {
+        width: 80px;
+        height: 30px;
+        background-color: rgba(87, 181, 210, 0.943);
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #position {
+        text-align: center;
+        color: white;
+        font-size: 200%;
+        margin-top: 35px;
+    }
+
+    .mid-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        /* border: 1px solid white; */
+        padding-inline: 12%;
+        padding-top: 20px;
+
+    }
+
+    .mid-container span {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .mid-container span input {
+        width: 250px;
+        height: 35px;
+        padding-left: 15px;
+        /* color: black; */
+        font-size: 17px;
+
+    }
+
+    .mid-container span {
+        position: relative;
+    }
+
+    .mid-container span i {
+        position: absolute;
+
+        top: 30px;
+        left: 220px;
+    }
+
+    .mid-container span label {
+        color: white;
+        padding-bottom: 10px;
+    }
+
+    .button{
+        width: 100%;
+        height: 14%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button button{
+        background-color: rgb(233, 51, 51);
+        color: white;
+        border: none;
+        font-size: 17px;
+        width: 15%;
+        height: 40px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+
+
+
+    .text{
+        width: 100%;
+        height: auto;
+    
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .text p:first-child{
+        font-size: 55px;
+        padding-top: 20px;
+    }
+
+    .text p{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .box{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        padding-top: 70px;
+
+    }
+
+    .box-1{
+        color: white;
+    }
+
+    .box-1 p{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
